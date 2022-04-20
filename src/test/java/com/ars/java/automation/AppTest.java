@@ -21,7 +21,7 @@ public class AppTest
     }
 
     @Test
-    public void shouldPrintStuff(){
+    public void shouldAddStuff(){
         long five = 5L;
         long result = App.sumTwoThree();
         Assert.assertEquals(five, result);
