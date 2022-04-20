@@ -10,4 +10,15 @@ public class App
     {
         System.out.println( "Hello World!" + args[0]);
     }
+
+
+    /**
+     *
+     * @return sum of 2 and 3 (5)
+     */
+    public static Integer sumTwoThree(){
+        int two = 2;
+        int three = 3;
+        return three + two;
+    }
 }
